@@ -1,2 +1,41 @@
 @charset "UTF-8";
 
+.bg-primary {
+    background-color:#FDC800 !important;
+}
+
+
+.bg-ligth {
+    background-color: #F0F4F9 !important;
+}
+
+.bg-half-ligth {
+    background: linear-gradient( #F0F4F9 50%, #ffffff 50%) !important;
+}
+
+.bg-secondary {
+    background: #002147 !important;
+}
+
+.btn-primary {
+    background-color: #FDC800;
+    border: 1px solid #FDC800;
+    color: #002147;
+}
+
+.btn-primary:hover {
+    background-color: #FDC800;
+    border: 1px solid #002147;
+    color: #002147;
+}
+
+.btn-info {
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.btn-info:hover {
+    background-color: white;
+    border: 1px solid #002147 !important;
+}
+
