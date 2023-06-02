@@ -5,12 +5,12 @@
 }
 
 
-.bg-ligth {
+.bg-light {
     background-color: #F0F4F9 !important;
 }
 
-.bg-half-ligth {
-    background: linear-gradient( #F0F4F9 50%, #ffffff 50%) !important;
+.bg-half-light {
+    background: linear-gradient(#F0F4F9 50%, #ffffff 50%) !important;
 }
 
 .bg-secondary {
@@ -39,3 +39,45 @@
     border: 1px solid #002147 !important;
 }
 
+.text-primary {
+    color: #FDC800 !important;
+}
+
+
+@media screen and (max-width: 576px) {
+    .text-large {
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    .text-small {
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    .text-large {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .text-small {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .text-large {
+        font-size: 60px;
+        font-weight: bolder;
+    }
+    .text-small {
+        font-size: 14px;
+    }
+}
+
+.text-secondary {
+    color: #002147 !important;
+}
+
+text-body {
+    color: #757575 !important;
+}
