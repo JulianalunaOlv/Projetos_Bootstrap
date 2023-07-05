@@ -2,21 +2,39 @@
 
 :root {
     --cor-cinza: #363636;
-    --cor-vermelha: #D7373C;
+    --cor-vermelha: hsl(358, 67%, 53%);
     --cor-fundo: #f4f4f4;
 }
 
-.barra-cinza {
-    width: 100%;
-    height: 70px;
-    background-color: var(--cor-cinza);
-    
+/*GERAIS*/
+
+.bg-body-primary {
+    background-color: var(--cor-vermelha);
+    box-shadow: 1px 1px 1px #363636be;
 }
 .barra-vermelha {
     width: 100%;
     height: 50px;
     background-color: var(--cor-vermelha);
 }
+.bg-body-secondary {
+    background-color: var(--cor-cinza) !important;
+    height: 70px; 
+    z-index: 10;
+    
+}
+
+.caixa-custom {
+    background-color: var(--cor-cinza);
+    height: 120px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #363636be;
+    color: white;
+}
+
+.card {
+    background-color: white;
+    }
 
 .icone {
     position: absolute;
@@ -24,6 +42,74 @@
     height: 100px;
     top: 15px;
     left: 60px;
+}
+
+.i-redes {
+    font-size: 20px;
+    color: var(--cor-cinza);
+}
+
+.i-redes:hover {
+    color: white;
+}
+
+.text-custom {
+    font-size: medium;
+    color: white !important;
+}
+
+.botao-usuario {
+    background-color: var(--cor-vermelha);
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.navbar-toggler{
+    background-color:var(--cor-vermelha);
+}
+
+.navbar-collapse {  
+    margin-top: 80px;
+    background-color: var(--cor-cinza);
+    border-radius: 5px solid var(--cor-cinza);
+}
+
+.itens-md {
+    margin-left: 20px;
+
+}
+
+.dropdown-menu {
+    background-color:var(--cor-vermelha);
+    height: 240px;
+}
+
+.btn btn-danger {
+padding-inline: 5px;
+
+}
+
+
+.btn-primary {
+    background-color: var(--cor-vermelha);
+    border-color: #363636;
+}
+.card-text {
+    color: #363636;
+    font-size: 16px !important;
+}
+
+.text-info {
+    color: #363636 !important;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.text-destaque {
+    color: #363636;
+    font-size: 12px !important;
+    font-weight: bold;
 }
 
 
@@ -41,3 +127,51 @@ breadcrumb {
         font-size: 14px;
     }
 }
+
+ 
+
+/*Telefone*/
+@media (max-width: 500px) {
+    .dropdown-menu {
+        width: 310px;
+        margin-left: 20px;
+    }
+
+    .h1 {
+        font-size: 20px;
+        text-align: end;
+    }
+
+    .caixa-custom {
+        box-shadow: 0px 2px 2px #363636ad
+    }
+
+    .botao-usuario {
+        width: 200px;
+        margin-left: 130px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .linha {
+        background-color: white;
+        width: auto;
+        height: 2px;
+        font-size: 2px;
+        color: white;
+    }
+
+ }
+
+/*Tablet)*/
+@media (min-width: 501px) and (max-width: 900px)  {
+    .dropdown-menu {
+        width: 435px;
+    }
+ }
+
+ /*Desktop)*/
+@media (min-width: 1201px) and (max-width: 1800px)  {
+    .dropdown-menu {
+        width: 440px;
+    }
+ }

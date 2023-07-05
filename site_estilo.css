@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    --cor-cinza: hsl(0, 0%, 21%);
+    --cor-cinza: #363636;
     --cor-vermelha: hsl(358, 67%, 53%);
     --cor-fundo: #f4f4f4;
 }
