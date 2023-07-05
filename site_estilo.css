@@ -1,0 +1,369 @@
+@charset "UTF-8";
+
+:root {
+    --cor-cinza: hsl(0, 0%, 21%);
+    --cor-vermelha: hsl(358, 67%, 53%);
+    --cor-fundo: #f4f4f4;
+}
+
+/*GERAIS*/
+
+.bg-body-primary {
+    background-color: var(--cor-vermelha);
+    box-shadow: 1px 1px 1px #363636be;
+}
+.barra-vermelha {
+    width: 100%;
+    height: 50px;
+    background-color: var(--cor-vermelha);
+}
+.bg-body-secondary {
+    background-color: var(--cor-cinza) !important;
+    height: 70px; 
+    z-index: 10;
+    
+}
+
+.caixa-custom {
+    background-color: var(--cor-cinza);
+    height: 120px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #363636be;
+    color: white;
+}
+
+.card {
+    background-color: white;
+    }
+
+.icone {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 15px;
+    left: 60px;
+}
+
+.i-redes {
+    font-size: 20px;
+    color: var(--cor-cinza);
+}
+
+.i-redes:hover {
+    color: white;
+}
+
+.text-custom {
+    font-size: medium;
+    color: white !important;
+}
+
+.botao-usuario {
+    background-color: var(--cor-vermelha);
+    width: 190px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.navbar-toggler{
+    background-color:var(--cor-vermelha);
+}
+
+.navbar-collapse {  
+    margin-top: 80px;
+    background-color: var(--cor-cinza);
+    border-radius: 5px solid var(--cor-cinza);
+}
+
+.itens-md {
+    margin-left: 20px;
+
+}
+
+.dropdown-menu {
+    background-color:var(--cor-vermelha);
+    height: 240px;
+}
+
+.btn btn-danger {
+padding-inline: 5px;
+
+}
+.carousel {
+    background-color: var(--cor-cinza);
+    width: 800px;
+    height: 600px;
+    position: relative;
+    left: 30%;
+}
+
+
+
+.btn-primary {
+    background-color: var(--cor-vermelha);
+    border-color: #363636;
+}
+.card-text {
+    color: #363636;
+    font-size: 16px !important;
+}
+
+.text-info {
+    color: #363636 !important;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.text-destaque {
+    color: #363636;
+    font-size: 12px !important;
+    font-weight: bold;
+}
+
+.h1 {
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+}
+
+
+.card-img-top {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 28%;
+    margin: 5px;  
+}
+
+
+.card {
+    height: 330px;
+    width: 240px;
+    box-shadow: 2px 2px 1px #36363693;
+}
+
+.card-body {
+    padding: 15px !important;
+}
+
+/*CARD SESAP*/
+
+.h2-sesap {
+    color:#009640;
+    font-size: 20px;
+}
+
+
+.btn-sesap {
+    font-size: smaller;
+    width: 80px;
+    height: 20px;
+    color: #009640;
+}
+
+
+.btn-sesap-vermais {
+    font-size: smaller;
+    background-color: #ffffff;
+    color: #009640;
+    border-color: #009640;
+}
+
+.btn-sesap-vermais:hover {
+    background-color: #363636;
+    border-color: #363636;
+    color: #ffffff;
+}
+
+/*CARD SEHAB*/
+
+.h2-sehab {
+    color:#B41735;
+    font-size: 20px;
+}
+
+.btn-sehab {
+    font-size: smaller;
+    width: 80px;
+    height: 25px;
+    color: #B41735;
+}
+
+.btn-sehab-vermais {
+    position: relative;
+    top: -6px;
+    font-size: smaller;
+    background-color: #ffffff;
+    color:  #B41735;
+    border-color:  #B41735;
+}
+
+.btn-sehab-vermais:hover {
+    background-color: #363636;
+    border-color: #363636;
+    color: #ffffff;
+}
+
+
+/*CARD SEFIN*/
+
+.h2-sefin {
+    color:#662483;
+    font-size: 20px;
+}
+
+.btn-sefin {
+    font-size: smaller;
+    width: 80px;
+    height: 25px;
+    color: #662483
+}
+
+.btn-sefin-vermais {
+    position: relative;
+    top: -6px;
+    font-size: smaller;
+    background-color: #ffffff;
+    color:  #662483;
+    border-color: #662483;
+}
+
+.btn-sefin-vermais:hover {
+    background-color: #363636;
+    border-color: #363636;
+    color: #ffffff;
+}
+
+/*CARD SETRAN*/
+
+.h2-setran {
+    color: #E84E0F;
+    font-size: 20px;
+}
+
+.btn-setran {
+    font-size: smaller;
+    width: 80px;
+    height: 25px;
+    color: #E84E0F;
+}
+
+.btn-setran-vermais {
+    position: relative;
+    top: -6px;
+    font-size: smaller;
+    background-color: #ffffff;
+    color: #E84E0F;
+    border-color:#E84E0F;
+}
+
+.btn-setran-vermais:hover {
+    background-color: #363636;
+    border-color: #363636;
+    color: #ffffff;
+}
+
+/*CARD SEMA*/
+
+.h2-sema {
+    color: #AFCA0B;
+    font-size: 20px;
+}
+
+.btn-sema {
+    font-size: smaller;
+    width: 80px;
+    height: 25px;
+    color: #AFCA0B;
+}
+
+.btn-sema-vermais {
+    position: relative;
+    top: -6px;
+    font-size: smaller;
+    background-color: #ffffff;
+    color: #AFCA0B;
+    border-color:#AFCA0B;
+}
+
+.btn-sema-vermais:hover {
+    background-color: #363636;
+    border-color: #363636;
+    color: #ffffff;
+}
+
+/*CARD SEDUC*/
+
+.h2-seduc {
+    color: #0075BF;
+    font-size: 20px;
+}
+
+.btn-seduc {
+    font-size: smaller;
+    width: 80px;
+    height: 25px;
+    color: #0075BF;
+}
+
+.btn-seduc-vermais {
+    font-size: smaller;
+    background-color: #ffffff;
+    color: #0075BF;
+    border-color:#0075BF;
+}
+
+.btn-seduc-vermais:hover {
+    background-color: #363636;
+    border-color: #363636;
+    color: #ffffff;
+}
+
+
+/*Telefone*/
+@media (max-width: 500px) {
+    .dropdown-menu {
+        width: 310px;
+        margin-left: 20px;
+    }
+
+    .h1 {
+        font-size: 20px;
+        text-align: end;
+    }
+
+    .caixa-custom {
+        box-shadow: 0px 2px 2px #363636ad
+    }
+
+    .botao-usuario {
+        width: 200px;
+        margin-left: 130px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .linha {
+        background-color: white;
+        width: auto;
+        height: 2px;
+        font-size: 2px;
+        color: white;
+    }
+
+ }
+
+/*Tablet)*/
+@media (min-width: 501px) and (max-width: 900px)  {
+    .dropdown-menu {
+        width: 435px;
+    }
+ }
+
+ /*Desktop)*/
+@media (min-width: 1201px) and (max-width: 1800px)  {
+    .dropdown-menu {
+        width: 440px;
+    }
+ }
+
+ 

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+:root {
+    --cor-cinza: #363636;
+    --cor-vermelha: #D7373C;
+    --cor-fundo: #f4f4f4;
+}
+
+.barra-cinza {
+    width: 100%;
+    height: 70px;
+    background-color: var(--cor-cinza);
+    
+}
+.barra-vermelha {
+    width: 100%;
+    height: 50px;
+    background-color: var(--cor-vermelha);
+}
+
+.icone {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 15px;
+    left: 60px;
+}
+
+
+.li-text-custom {
+
+    font-size: 0.9rem;
+}
+
+breadcrumb {
+    font-size: 16px;
+}
+
+@media (max-width: 620px) {
+    .breadcrumb {
+        font-size: 14px;
+    }
+}
