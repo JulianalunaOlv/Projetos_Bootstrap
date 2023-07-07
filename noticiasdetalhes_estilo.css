@@ -2,7 +2,7 @@
 
 :root {
     --cor-cinza: #363636;
-    --cor-vermelha: hsl(358, 67%, 53%);
+    --cor-vermelha: #d7373c;
     --cor-fundo: #f4f4f4;
 }
 
@@ -124,8 +124,19 @@ padding-inline: 5px;
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 24px !important;
 }
+
+.card-text {
+    font-size: 14px !important;
+}
+
+.texto-principal {
+    font-size: 16px !important;
+    text-align: justify;
+}
+
+
 
 
 
@@ -150,6 +161,7 @@ padding-inline: 5px;
 .text-saude {
     color: #009640 !important;
 }
+
 
  
 /*CARD EDUCACAO*/
