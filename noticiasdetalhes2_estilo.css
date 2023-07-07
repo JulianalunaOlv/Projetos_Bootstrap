@@ -124,7 +124,7 @@ padding-inline: 5px;
 }
 
 .card-title {
-    font-size: 24px !important;
+    font-size: 20px !important;
 }
 
 .card-text {
@@ -137,20 +137,35 @@ padding-inline: 5px;
 }
 
 
-.sombra {
-    border-radius: 2px;
-    box-shadow: 1px 1px 1px #363636;
+.btn.btn-primary {
+    justify-content: center !important;
+
 }
 
+.btn.btn-primary:hover {
+    background-color: #363636 !important;
+    border-color: #363636;
+    box-shadow: 1px 2px 2px #36363677 !important;
+}
+
+.img {
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px #36363691;
+}
 .li {
     height: 22px;
 }
 
-.titulo-tema {
+.titulo-card {
     font-size: 16px !important;
-    font-weight: 600;
-    color: #363636;
 }
+
+.text-principal {
+    font-size: 16px !important;
+    text-align: justify !important;
+    text-indent: 40px;
+}
+
 
 .bg-body-tertiary {
     background-color: #363636 !important;
@@ -159,21 +174,33 @@ padding-inline: 5px;
     background-color: #f0f0f07a !important;
 }
 
-/*CARD SAUDE*/
-.card-saude {
-    color:  #009640;
+.hover:hover {
+    text-decoration: underline;
+    color: #d7373c;
 }
 
+/*CARD SAUDE*/
+
+
+.card-saude:hover {
+    box-shadow: 2px 2px 2px #36363677 !important;
+}
 .card-title {
     color: #363636;
 }
 
 .btn-saude {
-    color: #009640;
+    background-color: #009640;
+    color: white;
     position: relative;
-    left: 38%;
-    width: 150px;
+    top: -20px;
+    left: 10px;
     height: 40px;
+}
+
+.btn-saude:hover {
+    background-color: #009640;
+    color: white;
 }
 
 .text-saude {
@@ -406,6 +433,11 @@ padding-inline: 5px;
         font-size: 2px;
         color: white;
     }
+
+    .foto-principal {
+        height: 180px;
+    }
+
 
  }
 
