@@ -78,7 +78,7 @@
 
 .dropdown-menu {
     background-color:var(--cor-vermelha);
-    height: 240px;
+    height: 250px;
 }
 
 .btn btn-danger {
@@ -135,6 +135,7 @@ padding-inline: 5px;
 }
 
 
+
 .btn.btn-primary {
     justify-content: center !important;
 
@@ -173,19 +174,15 @@ padding-inline: 5px;
     color: #d7373c;
 }
 
-/*CARD SAUDE*/
-
-.card-saude {
-    width: 16rem;
-    height: 20rem;
+.btn.btn-menu {
+    background-color: none !important;
+    font-size: larger;
+    border: #363636;
 }
 
-.card-saude:hover {
-    box-shadow: 2px 2px 2px #36363677 !important;
-}
-.card-title {
-    color: #363636;
-}
+
+/*BOTÃO SAUDE*/
+
 
 .btn-saude {
     background-color: #009640;
@@ -202,207 +199,11 @@ padding-inline: 5px;
     color: white;
 }
 
-.text-saude {
-    color: #009640 !important;
-}
-
-.text-noticias {
-    color: #363636;
-    font-size: 16px !important;
-    border-bottom: #363636 !important;
-    text-align: justify;
-}
-
-
- 
-/*CARD EDUCACAO*/
-
-.card-educacao {
-    color:   #0075BF;
-}
-
-.icone-educacao {
-    position: relative;
-    top: 30%;
-}
-
-.btn-educacao {
-    color: #0075BF;
-    position: relative;
-    left: 25%;
-    width: 150px;
-    height: 40px;
-}
-
-.text-educacao {
-    color: #0075BF !important;
-}
-
-/*CARD ESPORTES*/
-.card-esporte {
-    color: #D8383E;
-}
-
-.icone-esporte {
-    position: relative;
-    top: 30%;
-}
-
-.btn-esporte {
-    color: #D8383E;
-    position: relative;
-    left: 10%;
-    width: 150px;
-    height: 40px;
-}
-
-.text-esporte {
-    color: #D8383E !important;
-}
-
-
-/*CARD CULTURA*/
-.card-cultura {
-    color: #A7528E;
-}
-
-.icone-cultura {
-    position: relative;
-    top: 30%;
-}
-
-.btn-cultura {
-    color: #A7528E;
-    position: relative;
-    left: 32%;
-    width: 150px;
-    height: 40px;
-}
-
-.text-cultura {
-    color: #A7528E!important;
-}
-
-/*CARD MEIO AMBIENTE*/
-.card-meioambiente {
-    color: #AFCA0B;
-}
-
-.icone-meioambiente {
-    position: relative;
-    top: 30%;
-}
-
-.btn-meioambiente {
-    color: #AFCA0B;
-    position: relative;
-    left: 12%;
-    width: 150px;
-    height: 40px;
-}
-
-.text-meioambiente {
-    color: #AFCA0B!important;
-}
-
-/*CARD ASSISTENTE SOCIAL*/
-.card-social {
-    color: #9185BE;
-}
-
-.icone-docial {
-    position: relative;
-    top: 30%;
-}
-
-.btn-social {
-    color: #9185BE;
-    position: relative;
-    left: 5%;
-    width: 150px;
-    height: 40px;
-}
-
-.text-social {
-    color: #9185BE!important;
-}
-
-/*CARD SERVIÇOS URBANOS*/
-.card-urbanos {
-    color: #EF7D00;
-}
-
-.icone-urbanos{
-    position: relative;
-    top: 10%;
-}
-
-.btn-urbanos {
-    color: #EF7D00;
-    position: relative;
-    left: 65%;
-    width: 150px;
-    height: 40px;
-}
-
-.text-urbanos {
-    color: #B41735 !important;
-}
-
-
-/*CARD HABITAÇÃO*/
-.card-habitacao {
-    color: #B41735;
-}
-
-.icone-habitacao {
-    position: relative;
-    top: 10%;
-}
-
-.btn-habitacao {
-    color: #B41735;
-    position: relative;
-    left: 65%;
-    width: 150px;
-    height: 40px;
-}
-
-.text-habitacao {
-    color: #B41735!important;
-}
-
-/*CARD FINANÇAS*/
-.card-financas {
-    color: #662483;
-}
-
-.icone-financas {
-    position: relative;
-    top: 10%;
-}
-
-.btn-financas {
-    color: #662483;
-    position: relative;
-    left: 65%;
-    width: 150px;
-    height: 40px;
-}
-
-.text-financas {
-    color: #662483!important;
-}
-
-
-
 @media (max-width: 620px) {
     .breadcrumb {
         font-size: 14px;
     }
 }
-
-
 
 /*Telefone*/
 @media (max-width: 500px) {
@@ -446,6 +247,10 @@ padding-inline: 5px;
         left: 115px;
         height: 40px;
         width: 250px;
+    }
+
+    .text-rodape {
+        font-size: 14px;
     }
 
  }
