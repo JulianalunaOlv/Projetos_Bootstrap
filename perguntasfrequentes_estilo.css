@@ -32,6 +32,19 @@
     color: white;
 }
 
+.bi.bi-house {
+    color: var(--cor-vermelha);
+}
+
+.breadcrumb-item.active {
+    color:hsl(358, 67%, 53%) !important;
+}
+
+.hover:hover {
+    text-decoration: underline;
+    color: #d7373c;
+}
+
 .card {
     background-color: white;
     }

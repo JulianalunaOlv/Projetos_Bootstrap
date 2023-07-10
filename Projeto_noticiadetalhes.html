@@ -108,8 +108,8 @@
           <nav class="px-0 px-md-2 px-lg-4 m-3 m-lg-4" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='9'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
               <ol class="breadcrumb ">
                   <span class="bi bi-house px-3"></span>
-                  <li class="breadcrumb-item">Home</li>
-                  <li class="breadcrumb-item">Nóticias</li>
+                  <li class="breadcrumb-item hover">Home</li>
+                  <li class="breadcrumb-item hover">Nóticias</li>
                   <li class="breadcrumb-item active"> Saúde Pública | Julho Amarelo</li>
               </ol>
           </nav>
@@ -117,110 +117,69 @@
     </main><!--FIM INICIO MIGALHA DE PÃO-->
     <div><!--INICIO MAIN-->
               <div class="container-fluid"><!--INICIO CONTAINER-->
-                <div class="row"><!--INICIO LINHA-->
-                  <div class="col">
-                     <img src="arquivos/img1.jpg" alt="">
-                     <div class="row mt-4">
-                      <div class="col">
-                        <div class="card">
-                          <div class="card-body bi bi-capsule text-end text-saude">
-                            <h5 class=" h5 card-title mt-3 text-center">SESAP</h5>
-                            <p class="card-text text-saude text-destaque text-center">SECRETARIA DE SAÚDE PÚBLICA</p>
-                          </div>
-                          <div class="card-body card-saude bg-body">
-                            <p class="card-text text-noticias"> Nova vacina já esta disponível em todas as unidades da cidade
-                            </p>
-                            <button class="btn btn-saude align-content-end">ver mais</button>
-                          </div>
-                        </div>
+                <div class="row"><!--INICIO LINHA - TEMAS-->
+                  <div class="col mb-4 mx-4 d-none d-sm-block">
+                    <div class="btn btn-danger">AVANÇA PG</div>
+                    <div class="btn btn-danger">CIDADE TOTAL</div>
+                    <div class="btn btn-danger">COVID-19</div>
+                    <div class="btn btn-danger">DEFESA CIVIL</div>
+                    <div class="btn btn-danger">GALERIA DE FOTOS</div>
+                    <div class="btn btn-danger">JEESP 2022</div>
+                    <div class="btn btn-danger">JOMI 2022</div>
+                    <div class="btn btn-danger">JUVENTUDE</div>
+                    <div class="btn btn-danger">OBRAS</div>
+                    <div class="btn btn-danger"> REVISÃO PLANO DIRETOR</div>
+                    <div class="btn btn-danger">CIDADE SUSTENTÁVEL</div>
+                    <div class="btn btn-danger">SEGURANÇA</div>
+                    <div class="btn btn-danger">SERVIDORES</div>
+                  </div>
+                </div><!--FIM LINHA - TEMAS-->
+                <div class="row row-cols-2 d-flex"><!--INICIO LINHA - NOTICIA-->
+                  <div class="col-md-7 col-12">
+                    <div class="card mb-3 border-0">
+                      <div class="card-body">
+                        <h5 class="card-title text-end">Julho Amarelo: Praia Grande desenvolve ações de combate e prevenção das hepatites virais</h5>
+                        <p class="card-text text-end">Oferta de testes rápidos e capacitação para as equipes de Saúde estão previstas para o mês</p>
+                        <p class="card-text text-body-secondary text-end small">05/07/2023</p>
+                        <p class="card-text text-body-secondary fw-semibold text-end">Por Rodrigo Herrero</p>
+                        <p class="card-text text-principal">
+                          Em virtude do Julho Amarelo, período de luta contra as hepatites virais, a Prefeitura de Praia Grande está desenvolvendo durante o mês uma série de ações de combate e prevenção às hepatites B e C. Haverá oferta de testes rápidos e orientação para a população, além de capacitação para os profissionais da Secretaria de Saúde Pública (Sesap) do Município.
+                        </p>
+                        <p class="card-text text-principal">
+                          O Centro de Testagem, Aconselhamento e Prevenção (CTAP) de Praia Grande está intensificando em julho a oferta de testes rápidos para HIV, sífilis e hepatites B e C, distribuição de preservativos e material informativo. A unidade também encaminha pacientes para o Serviço de Atendimento Especializado (SAE). O SAE é referência no Município, reunindo médicos, enfermeiros, psicólogos e assistentes sociais especializados em HIV/Aids, hepatites, e infecções sexualmente transmissíveis (ISTs). Ambos os equipamentos ficam na Rua Cidade de Santos, 89, 1º andar, Bairro Boqueirão. O horário de atendimento para a realização dos testes é de segunda a sexta-feira, das 8h às 12h e das 13h às 15h30.
+                        </p>
+                        <p class="card-text text-principal">
+                          As Unidades de Saúde da Família (Usafas) da Cidade também oferecem durante o mês testes rápidos para a detecção de hepatites B e C, de sífilis e diagnóstico de HIV. Basta a pessoa procurar a unidade em que está cadastrada munida do cartão do posto e a equipe de saúde da família vai fazer o acolhimento do paciente e agendar a testagem. As Usafas também prestam orientações para os munícipes sobre métodos de prevenção. As unidades estão abertas de segunda à sexta-feira, das 8 às 17 horas.
+                        </p>
+                        <p class="card-text text-principal">
+                          Sexta Musical – A equipe do Programa Municipal de IST/Aids e Hepatites Virais também estará realizando ações de conscientização e prevenção nas edições da Sexta Musical, distribuindo preservativos e material informativo e também oferecendo testes rápidos gratuitos para a população. A primeira edição de julho será na próxima sexta-feira (7) no Bairro Vila Sônia. As próximas edições previstas são: Guilhermina (14), Canto do Forte (21) e Anhanguera (28).
+                        </p>
+                        <p class="card-text text-principal">
+                          Capacitação – Nos dias 26 e 27 de julho, o Programa Municipal de IST/Aids e Hepatites Virais fará uma capacitação em testes rápidos para a detecção de hepatites B e C, de sífilis e diagnóstico de HIV direcionada aos profissionais de Saúde de Praia Grande. Poderão participar aqueles que atuam na Rede de Atenção Primária, Atenção Especializada, Rede de Urgência e Emergência e Atenção Hospitalar do Município.
+                        </p>
                       </div>
-                     </div>    
-                  </div>
-                  <div class="col-7">
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        Julho Amarelo: Praia Grande desenvolve ações de combate e prevenção das hepatites virais
-                      </h5>
-                      <p class="card-text mt-2">
-                        Oferta de testes rápidos e capacitação para as equipes de Saúde estão previstas para o mês.
-                      </p>
-                      <p class="card-text"><small class="text-body-secondary">05/07/2023</small></p>
-                      <p class="card-text fw-bolder"><small class="text-body-secondary">Por Rodrigo Herrero</small></p>
-                      <p class="card-text texto-principal m-0">
-                        Em virtude do Julho Amarelo, período de luta contra as hepatites virais, a Prefeitura de Praia Grande está desenvolvendo durante o mês uma série de ações de combate e prevenção às hepatites B e C. Haverá oferta de testes rápidos e orientação para a população, além de capacitação para os profissionais da Secretaria de Saúde Pública (Sesap) do Município.
-                      </p>
-                      <br>
-                      <p class="card-text texto-principal m-0">
-                      O Centro de Testagem, Aconselhamento e Prevenção (CTAP) de Praia Grande está intensificando em julho a oferta de testes rápidos para HIV, sífilis e hepatites B e C, distribuição de preservativos e material informativo. A unidade também encaminha pacientes para o Serviço de Atendimento Especializado (SAE). O SAE é referência no Município, reunindo médicos, enfermeiros, psicólogos e assistentes sociais especializados em HIV/Aids, hepatites, e infecções sexualmente transmissíveis (ISTs). Ambos os equipamentos ficam na Rua Cidade de Santos, 89, 1º andar, Bairro Boqueirão. O horário de atendimento para a realização dos testes é de segunda a sexta-feira, das 8h às 12h e das 13h às 15h30.
-                      </p>
-                      <br>
-                      <p class="card-text texto-principal m-0">
-                        As Unidades de Saúde da Família (Usafas) da Cidade também oferecem durante o mês testes rápidos para a detecção de hepatites B e C, de sífilis e diagnóstico de HIV. Basta a pessoa procurar a unidade em que está cadastrada munida do cartão do posto e a equipe de saúde da família vai fazer o acolhimento do paciente e agendar a testagem. As Usafas também prestam orientações para os munícipes sobre métodos de prevenção. As unidades estão abertas de segunda à sexta-feira, das 8 às 17 horas.
-                      </p>
-                      <br>
-                      <p class="card-text texto-principal m-0">
-                        Sexta Musical – A equipe do Programa Municipal de IST/Aids e Hepatites Virais também estará realizando ações de conscientização e prevenção nas edições da Sexta Musical, distribuindo preservativos e material informativo e também oferecendo testes rápidos gratuitos para a população. A primeira edição de julho será na próxima sexta-feira (7) no Bairro Vila Sônia. As próximas edições previstas são: Guilhermina (14), Canto do Forte (21) e Anhanguera (28).
-                      </p>
-                      <br>
-                      <p class="card-text texto-principal mb-5">
-                        Capacitação – Nos dias 26 e 27 de julho, o Programa Municipal de IST/Aids e Hepatites Virais fará uma capacitação em testes rápidos para a detecção de hepatites B e C, de sífilis e diagnóstico de HIV direcionada aos profissionais de Saúde de Praia Grande. Poderão participar aqueles que atuam na Rede de Atenção Primária, Atenção Especializada, Rede de Urgência e Emergência e Atenção Hospitalar do Município.
-                      </p>
                     </div>
-                    <div class="d-flex justify-content-center">
-                      <img class="img-thumbnail me-4" src="arquivos/bancoimg.jpg" alt="">
-                      <img class="img-thumbnail me-4" src="arquivos/ouvidoria.jpg" alt="">
-                      <img class="img-thumbnail me-4" src="arquivos/cameraaovivo.jpg" alt="">
-                      <img class="img-thumbnail me-4" src="arquivos//pontoturistico.jpg" alt="">
-                      <img class="img-thumbnail" src="arquivos/perguntas.jpg" alt="">                           
+                 </div> 
+                    <div class="col-md-5 col-12 p-0">
+                      <img class="img w-100 h-100 p-5" src="arquivos/saude1.jpg" alt="FOTO NOTÍCIA SAÚDE">
+                      <div class="btn btn-saude bi bi-share-fill"> Compartilhe esta notícia</div>
                     </div>
-                  </div>
-                  <div class="col text-center">
-                    <h5 class="titulo-tema mb-3 text-end me-4">
-                      PRINCIPAIS TEMAS
-                    </h5>
-                    <ul>
-                      <li class="bg-danger text-white bolder mb-2 sombra h6 li">AVANÇA PG</li>
-                      <li class="bg-danger text-white bolder mb-2 sombra h6 li">CIDADE TOTAL</li>
-                      <li class="bg-danger text-white bolder mb-2 sombra h6 li">COVID-19</li>
-                      <li class="bg-danger text-white bolder mb-2 sombra h6 li">DEFESA CIVIL</li>
-                      <li class="bg-danger text-white bolder mb-2 sombra h6 li">GALERIA DE FOTOS</li>
-                      <li class="bg-danger text-white bolder mb-2 sombra h6 li">JEESP 2022</li>
-                      <li class="bg-danger text-white bolder mb-2 sombra h6 li">JOMI 2022</li>
-                      <li class="bg-danger text-white bolder mb-2 sombra h6 li">JUVENTUDE</li>
-                      <li class="bg-danger text-white bolder mb-2 sombra h6 li">CIDADE SUSTENTÁVEL</li>
-                      <li class="bg-danger text-white bolder mb-2 sombra h6 li">PLANO DIRETOR</li>
-                      <li class="bg-danger text-white bolder mb-2 sombra h6 li">SERVIDORES</li>      
-                    </ul>
-                    <h5 class="titulo-tema  mt-5 mb-3 text-center ms-4">
-                      SECRETARIAS
-                    </h5>
-                    <ul>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">GP</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEG</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEPLAN</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEASP</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEAD</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">PROGEM</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEFIN</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEAS</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEDUC</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SESAP</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEURB</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEMA</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEOP</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEHAB</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SESURB</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SETRAN</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SETRANSP</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEAI</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SECTUR</li>
-                      <li class="bg-body-tertiary text-white bolder mb-2 sombra h6 li">SEEL</li>
-                    </ul>
-                  </div>
-                  </div><!--FIM LINHA -->            
+                   </div><!--INICIO LINHA - NOTICIA-->
+                   <div class="row bg-body-primary py-4 d-none d-sm-block">
+                    <div class="col-12 mb-2">
+                      <img src="arquivos/ouvidoria.jpg" class="img-thumbnail me-4" style="width: 180px; height: 150px;" alt="...">
+                      <img src="arquivos/pontoturistico.jpg" class="img-thumbnail me-4" style="width: 180px; height: 150px;" alt="...">
+                      <img src="arquivos/cameraaovivo.jpg" class="img-thumbnail me-4" style="width: 180px; height: 150px;" alt="...">
+                      <img src="arquivos/sic.jpg" class="img-thumbnail me-4" style="width: 180px; height: 150px;" alt="...">
+                      <img src="arquivos/perguntas.jpg" class="img-thumbnail me-4" style="width: 180px; height: 150px;" alt="...">
+                      <img src="arquivos/pontoturistico.jpg" class="img-thumbnail me-4" style="width: 180px; height: 150px;" alt="...">
+                      <img src="arquivos/denuncia.jpg" class="img-thumbnail me-4" style="width: 180px; height: 150px;" alt="...">
+                      <img src="arquivos/geopg.jpg" class="img-thumbnail me-4" style="width: 180px; height: 150px;" alt="...">
+                      <img src="arquivos/avalie.jpg" class="img-thumbnail" style="width: 180px; height: 150px;" alt="...">
+                      
+                    </div>
+                   </div>
               </div><!--FIM CONTAINER-->
-              
-      
     </div><!--FIM MAIN-->
         
 </body>

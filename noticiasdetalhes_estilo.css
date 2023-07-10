@@ -91,10 +91,6 @@ padding-inline: 5px;
     background-color: var(--cor-vermelha);
     border-color: #363636;
 }
-.card-text {
-    color: #363636;
-    font-size: 16px !important;
-}
 
 .text-info {
     color: #363636 !important;
@@ -124,12 +120,14 @@ padding-inline: 5px;
 }
 
 .card-title {
-    font-size: 24px !important;
+    font-size: 20px !important;
 }
 
 .card-text {
     font-size: 14px !important;
+    color: #363636;
 }
+
 
 .texto-principal {
     font-size: 16px !important;
@@ -137,20 +135,31 @@ padding-inline: 5px;
 }
 
 
-.sombra {
-    border-radius: 2px;
-    box-shadow: 1px 1px 1px #363636;
+.btn.btn-primary {
+    justify-content: center !important;
+
+}
+
+.btn.btn-primary:hover {
+    background-color: #363636 !important;
+    border-color: #363636;
+    box-shadow: 1px 2px 2px #36363677 !important;
 }
 
 .li {
     height: 22px;
 }
 
-.titulo-tema {
+.titulo-card {
     font-size: 16px !important;
-    font-weight: 600;
-    color: #363636;
 }
+
+.text-principal {
+    font-size: 16px !important;
+    text-align: right;
+    text-indent: 15px;
+}
+
 
 .bg-body-tertiary {
     background-color: #363636 !important;
@@ -159,21 +168,38 @@ padding-inline: 5px;
     background-color: #f0f0f07a !important;
 }
 
-/*CARD SAUDE*/
-.card-saude {
-    color:  #009640;
+.hover:hover {
+    text-decoration: underline;
+    color: #d7373c;
 }
 
+/*CARD SAUDE*/
+
+.card-saude {
+    width: 16rem;
+    height: 20rem;
+}
+
+.card-saude:hover {
+    box-shadow: 2px 2px 2px #36363677 !important;
+}
 .card-title {
     color: #363636;
 }
 
 .btn-saude {
-    color: #009640;
+    background-color: #009640;
+    color: white;
     position: relative;
-    left: 38%;
-    width: 150px;
+    bottom: 75px;
+    left: 450px;
     height: 40px;
+    width: 250px;
+}
+
+.btn-saude:hover {
+    background-color: #009640;
+    color: white;
 }
 
 .text-saude {
@@ -184,6 +210,7 @@ padding-inline: 5px;
     color: #363636;
     font-size: 16px !important;
     border-bottom: #363636 !important;
+    text-align: justify;
 }
 
 
@@ -405,6 +432,20 @@ padding-inline: 5px;
         height: 2px;
         font-size: 2px;
         color: white;
+    }
+
+    .foto-principal {
+        height: 180px;
+    }
+
+    .btn-saude {
+        background-color: #009640;
+        color: white;
+        position: relative;
+        bottom: 75px;
+        left: 115px;
+        height: 40px;
+        width: 250px;
     }
 
  }
