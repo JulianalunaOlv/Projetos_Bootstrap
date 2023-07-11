@@ -68,7 +68,7 @@
                   <li class="nav-item itens-md">
                     <a class="nav-link text-custom" href="#">PORTAL DA TRANSPARÊNCIA</a>
                   </li>
-                  <button class="botao-usuario btn btn-danger py-1 bi bi-person-square"> ÁREA DO USUÁRIO</button>
+                  <button class="botao-usuario btn btn-danger py-1 bi bi-person-square ms-5"> ÁREA DO USUÁRIO</button>
                 </ul>
                 <div>
                   <p class="linha my-2 d-block d-sm-none d-md-none">linha divisória</p>
@@ -114,9 +114,9 @@
                       <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">                  </button>
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                    <div class="carousel-inner">
+                    <div class="carousel-caption">
                       <div class="carousel-item active">
-                        <img src="arquivos/banner1.png" class="d-block w-100" alt="...">
+                        <img src="arquivos/banner1.png" class=" d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
                         <img src="arquivos/banner2.png" class="d-block w-100" alt="...">
@@ -138,7 +138,7 @@
     <div class="container caixa-custom d-sm-block d-none"><!--INICIO AREA PESQUISA-->
       <div class="row">
         <div class="col-6">
-          <h1 class="h1 p-5 m-0">O que esta procurando?</h1>
+          <h2 class="h2 p-5 m-0">O que esta procurando?</h2>
         </div>
           <div class="col-6">
             <div class="input-group p-5 m-0">
@@ -148,116 +148,69 @@
           </div>
       </div>
     </div><!--FIM AREA PESQUISA-->
-    <div class="container-fluid py-4"><!--INICIO AREA SERVIÇOS EM DESTAQUE-->
-      <div class="row d-flex bg-body-primary py-5 align-content-center ">
-        <h1 class="h1 text-center">SERVIÇOS EM DESTAQUE</h1>
-        <h2 class="text-info text-center ">MAIS ACESSADOS</h2>
-        <div class="col p-3 d-flex justify-content-center"><!--COLUNA CARD SESAP-->
-          <div class="card">
-            <div class="card-body">
-              <h5 class=" h2-sesap card-title mt-3 text-center">SESAP</h5>
-              <p class="card-text text-destaque text-center">SECRETARIA DE SAÚDE PÚBLICA</p>
-            </div>
-            <div class="card-body bg-body-tertiary">
-              <p class="card-text bi bi-capsule"> Medicamentos
-                <a class="btn btn-sesap mb-2" href="#">Ver mais</a>
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="btn btn-sesap-vermais">acessar SESAP</a>
+    <div><!--INICIO TITULO E FILTRO-->
+      <div class="mt-5 justify-content-end text-end mb-4">
+        <h1 class="h1 text-center mb-3">NOTÍCIAS</h1>
+    </div>
+    </div><!--FIM TITULO E FILTRO-->
+    <div class="container-fluid my-3 bg-body-primary"><!--INICIO NOTICIAS-->
+      <div class="row row row-cols-1 row-cols-md-5 mx-0 my-4">
+        <div class="col">
+          <div class="my-3 ms-4 card mb-3" style="width: 18rem; height: 430px;">
+            <img src="arquivos/noticia1.jpg" class="card-img-top" alt="...">
+            <div class="card-body pt-0">
+              <a href="#" class="btn btn-seurb">SEURB</a>
+              <h5 class="card-title">Limpeza nas ruas</h5>
+              <p class="card-text">Bairro Maracanã registra queda em quantidade de materiais deixados nas ruas.</p>
+              <p class="card-text"><small class="text-body-secondary">05/07/2023</small></p>
             </div>
           </div>
         </div>
-        <div class="col p-3 d-flex justify-content-center"><!--COLUNA CARD SEHAB-->
-          <div class="card">
-            <img src="arquivos/sehab.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class=" h2-sehab card-title text-center">SEHAB</h5>
-              <p class="card-text text-destaque text-center">SECRETARIA DE HABITAÇÃO</p>
-            </div>
-            <div class="card-body bg-body-tertiary">
-              <p class="card-text bi bi-boxes"> Projetos/Programas
-                <a class="btn btn-sehab mb-2" href="#">Ver mais</a>
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="btn btn-sehab-vermais">acessar SEHAB</a>
-            </div>
-          </div>
-        </div>
-        <div class="col p-3 d-flex justify-content-center"><!--COLUNA CARD SEFIN-->
-          <div class="card">
-            <img src="arquivos/sefin.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class=" h2-sefin card-title text-center">SEFIN</h5>
-              <p class="card-text text-destaque text-center">SECRETARIA DE FINANÇAS</p>
-            </div>
-            <div class="card-body bg-body-tertiary">
-              <p class="card-text bi bi-cash-stack"> Dívida Ativa 
-                <a class="btn btn-sefin mb-2 mx-4" href="#">Ver mais</a>
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="btn btn-sefin-vermais">acessar SEFIN</a>
-            </div>
-          </div>
-        </div>
-        <div class="col p-3 d-flex justify-content-center"><!--COLUNA CARD SETRAN-->
-          <div class="card">
-            <img src="arquivos/setran.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class=" h2-setran card-title text-center">SETRAN</h5>
-              <p class="card-text text-destaque text-center">SECRETARIA DE TRÂNSITO</p>
-            </div>
-            <div class="card-body bg-body-tertiary">
-              <p class="card-text bi bi-car-front-fill"> Multa e Autuação
-                <a class="btn btn-setran mb-2" href="#">Ver mais</a>
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="btn btn-setran-vermais">acessar SETRAN</a>
-            </div>
-          </div>
-        </div>
-        <div class="col p-3 d-flex justify-content-center"><!--COLUNA CARD SEMA-->
-          <div class="card">
-            <img src="arquivos/sema.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class=" h2-sema card-title text-center">SEMA</h5>
-              <p class="card-text text-destaque text-center">SECRETARIA DO MEIO AMBIENTE</p>
-            </div>
-            <div class="card-body bg-body-tertiary">
-              <p class="card-text bi bi-tree"> Qualidade do ar
-                <a class="btn btn-sema mb-2" href="#">Ver mais</a>
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="btn btn-sema-vermais">acessar SEMA</a>
-            </div>
-          </div>
-        </div>
-        <div class="col p-3 d-flex justify-content-center"><!--COLUNA CARD SEDUC-->
-          <div class="card">
-            <img src="arquivos/seduc.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class=" h2-seduc card-title text-center">SEDUC</h5>
-              <p class="card-text text-destaque text-center">SECRETARIA DE EDUCAÇÃO</p>
-            </div>
-            <div class="card-body bg-body-tertiary">
-              <p class="card-text bi bi-book-half"> Escolas Municipais
-                <a class="btn btn-seduc" href="#">Ver mais</a>
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="btn btn-seduc-vermais">acessar SEDUC</a>
-            </div>
+        <div class="col">
+          <div class="my-3 ms-2 card mb-3" style="width: 18rem; height: 430px;">
+            <img src="arquivos/noticia2.jpg" class="card-img-top" alt="...">
+            <div class="card-body pt-0">
+              <a href="#" class="btn btn-sehab">SEHAB</a>
+              <h5 class="card-title">Regularização Fundiária</h5>
+              <p class="card-text">Prefeitura realiza cadastro de famílias do núcleo Santa Marina, no Bairro Nova Mirim.</p>
+              <p class="card-text"><small class="text-body-secondary">06/07/2023</small></p>
           </div>
         </div>
       </div>
-    </div><!--FIM AREA SERVIÇOS EM DESTAQUE-->
-    <div class="container my-4 bg-body-tertiary">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sequi neque eos soluta placeat, asperiores doloribus ex et repellendus alias error libero at officiis expedita aliquid iure inventore voluptatibus voluptatem!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sequi neque eos soluta placeat, asperiores doloribus ex et repellendus alias error libero at officiis expedita aliquid iure inventore voluptatibus voluptatem!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sequi neque eos soluta placeat, asperiores doloribus ex et repellendus alias error libero at officiis expedita aliquid iure inventore voluptatibus voluptatem!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sequi neque eos soluta placeat, asperiores doloribus ex et repellendus alias error libero at officiis expedita aliquid iure inventore voluptatibus voluptatem!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sequi neque eos soluta placeat, asperiores doloribus ex et repellendus alias error libero at officiis expedita aliquid iure inventore voluptatibus voluptatem!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sequi neque eos soluta placeat, asperiores doloribus ex et repellendus alias error libero at officiis expedita aliquid iure inventore voluptatibus voluptatem!</p>
+      <div class="col">
+        <div class="my-3 ms-2 card mb-3" style="width: 18rem; height: 430px;">
+          <img src="arquivos/noticia3.jpg" class="card-img-top" alt="...">
+          <div class="card-body pt-0">
+            <a href="#" class="btn btn-sema">SEMA</a>
+            <h5 class="card-title">Aves-símbolo do manguezal</h5>
+            <p class="card-text">Guarás-vermelhos colorem o Portinho e são os novos moradores de Praia Grande.</p>
+            <p class="card-text"><small class="text-body-secondary">03/07/2023</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="my-3 ms-2 card mb-3" style="width: 18rem; height: 430px;">
+          <img src="arquivos/noticia3.jpg" class="card-img-top" alt="...">
+          <div class="card-body pt-0">
+            <a href="#" class="btn btn-sema">SEMA</a>
+            <h5 class="card-title">Aves-símbolo do manguezal</h5>
+            <p class="card-text">Guarás-vermelhos colorem o Portinho e são os novos moradores de Praia Grande.</p>
+            <p class="card-text"><small class="text-body-secondary">03/07/2023</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-2">
+        <div class="my-3 ms-2 card mb-3" style="width: 18rem; height: 430px;">
+          <img src="arquivos/noticia4.jpg" class="card-img-top" alt="...">
+          <div class="card-body pt-0">
+            <a href="#" class="btn btn-seduc">SEDUC</a>
+            <h5 class="card-title">Alunos destaques</h5>
+            <p class="card-text">Alunos são destaques da segunda Mostra de Complementação Educacional.</p>
+            <p class="card-text"><small class="text-body-secondary">01/07/2023</small></p>
+        </div>
+      </div>
     </div>
+    </div><!--FIM NOTICIAS-->
 
        <!--Link do bootstrap (Javascript)-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 

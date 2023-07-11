@@ -54,14 +54,12 @@
 }
 
 .text-custom {
-    font-size: medium;
+    font-size:small;
     color: white !important;
 }
 
 .botao-usuario {
     background-color: var(--cor-vermelha);
-    width: 190px;
-    height: 35px;
     border-radius: 20px;
 }
 
@@ -78,6 +76,7 @@
 .itens-md {
     margin-left: 20px;
 
+
 }
 
 .dropdown-menu {
@@ -85,18 +84,13 @@
     height: 240px;
 }
 
-.btn btn-danger {
-padding-inline: 5px;
-
-}
 .carousel {
     background-color: var(--cor-cinza);
-    width: 800px;
+    width: 1200px;
     height: 600px;
     position: relative;
-    left: 30%;
+    left: 18%;
 }
-
 
 
 .btn-primary {
@@ -120,203 +114,101 @@ padding-inline: 5px;
     font-weight: bold;
 }
 
-.h1 {
+.h2 {
     font-size: 24px;
     padding: 10px;
     color: white;
 }
 
-
-.card-img-top {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    left: 28%;
-    margin: 5px;  
-}
-
-
 .card {
-    height: 330px;
-    width: 240px;
-    box-shadow: 2px 2px 1px #36363693;
+
+    box-shadow: 1px 1px 1px #36363693;
 }
 
-.card-body {
-    padding: 15px !important;
-}
-
-/*CARD SESAP*/
-
-.h2-sesap {
-    color:#009640;
-    font-size: 20px;
-}
-
-
-.btn-sesap {
-    font-size: smaller;
-    width: 80px;
-    height: 20px;
-    color: #009640;
-}
-
-
-.btn-sesap-vermais {
-    font-size: smaller;
-    background-color: #ffffff;
-    color: #009640;
-    border-color: #009640;
-}
-
-.btn-sesap-vermais:hover {
-    background-color: #363636;
-    border-color: #363636;
-    color: #ffffff;
-}
-
-/*CARD SEHAB*/
-
-.h2-sehab {
-    color:#B41735;
-    font-size: 20px;
-}
+/*BOTÃO SEHAB*/
 
 .btn-sehab {
-    font-size: smaller;
-    width: 80px;
-    height: 25px;
-    color: #B41735;
-}
-
-.btn-sehab-vermais {
+    background-color: #B41735;
+    color: white;
     position: relative;
-    top: -6px;
-    font-size: smaller;
-    background-color: #ffffff;
-    color:  #B41735;
-    border-color:  #B41735;
+    top: -25px;
+    right: 5px;
+    border-color: white;
+    border-radius: 20px;
 }
 
-.btn-sehab-vermais:hover {
-    background-color: #363636;
-    border-color: #363636;
-    color: #ffffff;
-}
-
-
-/*CARD SEFIN*/
-
-.h2-sefin {
-    color:#662483;
-    font-size: 20px;
-}
-
-.btn-sefin {
-    font-size: smaller;
-    width: 80px;
-    height: 25px;
-    color: #662483
-}
-
-.btn-sefin-vermais {
+.btn-sehab:hover {
+    background-color: #B41735;
+    color: white;
     position: relative;
-    top: -6px;
-    font-size: smaller;
-    background-color: #ffffff;
-    color:  #662483;
-    border-color: #662483;
+    top: -25px;
+    right: 5px;
+    border-color: white;
+    border-radius: 20px;
 }
 
-.btn-sefin-vermais:hover {
-    background-color: #363636;
-    border-color: #363636;
-    color: #ffffff;
-}
 
-/*CARD SETRAN*/
-
-.h2-setran {
-    color: #E84E0F;
-    font-size: 20px;
-}
-
-.btn-setran {
-    font-size: smaller;
-    width: 80px;
-    height: 25px;
-    color: #E84E0F;
-}
-
-.btn-setran-vermais {
+/*BOTÃO SEURB*/
+.btn-seurb {
+    background-color: #EF7D00;
+    color: white;
     position: relative;
-    top: -6px;
-    font-size: smaller;
-    background-color: #ffffff;
-    color: #E84E0F;
-    border-color:#E84E0F;
+    top: -25px;
+    right: 5px;
+    border-color: white;
+    border-radius: 20px;
 }
 
-.btn-setran-vermais:hover {
-    background-color: #363636;
-    border-color: #363636;
-    color: #ffffff;
+.btn-seurb:hover {
+    background-color: #EF7D00;
+    color: white;
+    position: relative;
+    top: -25px;
+    right: 5px;
+    border-color: white;
+    border-radius: 20px;
 }
 
-/*CARD SEMA*/
-
-.h2-sema {
-    color: #AFCA0B;
-    font-size: 20px;
-}
-
+/*BOTÃO SEMA*/
 .btn-sema {
-    font-size: smaller;
-    width: 80px;
-    height: 25px;
-    color: #AFCA0B;
-}
-
-.btn-sema-vermais {
+    background-color: #AFCA0B;
+    color: white;
     position: relative;
-    top: -6px;
-    font-size: smaller;
-    background-color: #ffffff;
-    color: #AFCA0B;
-    border-color:#AFCA0B;
+    top: -25px;
+    right: 5px;
+    border-color: white;
+    border-radius: 20px;
 }
 
-.btn-sema-vermais:hover {
-    background-color: #363636;
-    border-color: #363636;
-    color: #ffffff;
+.btn-sema:hover {
+    background-color: #AFCA0B;
+    color: white;
+    position: relative;
+    top: -25px;
+    right: 5px;
+    border-color: white;
+    border-radius: 20px;
 }
 
-/*CARD SEDUC*/
-
-.h2-seduc {
-    color: #0075BF;
-    font-size: 20px;
-}
-
+/*BOTÃO SEDUC*/
 .btn-seduc {
-    font-size: smaller;
-    width: 80px;
-    height: 25px;
-    color: #0075BF;
+    background-color: #0075BF;
+    color: white;
+    position: relative;
+    top: -25px;
+    right: 5px;
+    border-color: white;
+    border-radius: 20px;
 }
 
-.btn-seduc-vermais {
-    font-size: smaller;
-    background-color: #ffffff;
-    color: #0075BF;
-    border-color:#0075BF;
-}
-
-.btn-seduc-vermais:hover {
-    background-color: #363636;
-    border-color: #363636;
-    color: #ffffff;
+.btn-seduc:hover {
+    background-color: #0075BF;
+    color: white;
+    position: relative;
+    top: -25px;
+    right: 5px;
+    border-color: white;
+    border-radius: 20px;
 }
 
 
@@ -338,9 +230,9 @@ padding-inline: 5px;
 
     .botao-usuario {
         width: 200px;
-        margin-left: 130px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin: 5px;
+        position: relative;
+        left: 70px;
     }
     .linha {
         background-color: white;
