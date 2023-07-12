@@ -2,7 +2,7 @@
 
 :root {
     --cor-cinza: #363636;
-    --cor-vermelha: hsl(358, 67%, 53%);
+    --cor-vermelha: #d7373c;
     --cor-fundo: #f4f4f4;
 }
 
@@ -24,6 +24,13 @@
     
 }
 
+
+.bg-body-cinza {
+    background-color: #363636;
+    box-shadow: 1px 1px 1px #363636be;
+
+}
+
 .caixa-custom {
     background-color: var(--cor-cinza);
     height: 120px;
@@ -35,6 +42,7 @@
 .card {
     background-color: white;
     }
+    
 
 .icone {
     position: absolute;
@@ -120,10 +128,61 @@
     color: white;
 }
 
-.card {
+.card:hover {
 
-    box-shadow: 1px 1px 1px #36363693;
+    box-shadow: 2px 2px 2px #36363693;
 }
+
+.linha {
+    background-color: #363636;
+    color: #ffffff;
+    height: 3px;
+    width: 300px;
+    border-radius: 5px;
+
+}
+
+
+.btn-galeria {
+    background-color: #ffffff;
+    color: #d7373c;
+    font-weight: 00;
+    position: relative;
+    top: -20px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+   
+
+}
+
+.btn-galeria:hover {
+    background-color: #d7373c;
+    color: #ffffff;
+    font-size: medium;
+    position: relative;
+    top: -20px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+
+}
+
+
+
+/*BOTÃO VER MAIS*/
+.btn-vermais {
+    background-color: #d7373c;
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+}
+ 
+.btn-vermais:hover {
+    background-color: #363636;
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+}
+ 
 
 /*BOTÃO SEHAB*/
 
@@ -211,6 +270,218 @@
     border-radius: 20px;
 }
 
+/*BOTÃO SEEL*/
+.btn-seel {
+    background-color: #D8383E;
+    color: white;
+    position: relative;
+    top: -25px;
+    right: 5px;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.btn-seel:hover {
+    background-color: #D8383E;
+    color: white;
+    position: relative;
+    top: -25px;
+    right: 5px;
+    border-color: white;
+    border-radius: 20px;
+}
+
+
+.icone-secretaria {
+    font-size: 2rem;
+
+}
+.h3 {
+    font-size: 24px;
+    position: relative;
+    left: 3%;
+    top: -42%;
+}
+
+.card-body {
+    height: 60px;
+}
+
+.card {
+    width: 220px;
+}
+.text-secretaria {
+    font-size: 14px;
+    justify-items: center;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 1px #363636ad;
+}
+
+/*CARD SAUDE*/
+.card-saude {
+    background-color: #009640;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*CARD EDUCACAO*/
+
+.card-educacao {
+   background-color: #0075BF;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*CARD ESPORTES*/
+.card-esporte {
+    background-color: #D8383E;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*CARD CULTURA*/
+.card-cultura {
+    background-color: #A7528E;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*CARD MEIO AMBIENTE*/
+.card-meioambiente {
+    background-color:  #AFCA0B;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*CARD ASSISTENTE SOCIAL*/
+.card-social {
+   background-color: #9185BE;
+   color: #ffffff;
+    text-align: center;
+}
+
+/*CARD SERVIÇOS URBANOS*/
+.card-urbanos {
+    background-color: #EF7D00;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*CARD HABITAÇÃO*/
+.card-habitacao {
+    background-color: #B41735;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*CARD FINANÇAS*/
+.card-financas {
+    background-color: #662483;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*CARD GOVERNO*/
+.card-governo {
+    background-color: #7D6B7D;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*CARD GABINETE*/
+.card-gabinete {
+    background-color: #4B4359;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*CARD PLANEJAMENTO*/
+.card-planejamento {
+    background-color: #743862;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*CARD SEGURANÇA PÚBLICA*/
+.card-seguranca {
+    background-color: #003770;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*CARD ADMINISTRAÇÃO*/
+.card-administracao {
+    background-color: #009FE3;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*CARD PROCURADORIA GERAL*/
+.card-procuradoria {
+    background-color: #4C594E;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*CARD OBRAS PÚBLICAS*/
+.card-obras {
+    background-color: #164194;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*CARD TRANSITO*/
+.card-transito {
+    background-color: #E84E0F;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*CARD TRANSPORTE*/
+.card-transporte {
+    background-color: #F59C00;
+    color: #ffffff;
+    text-align: center;
+    text: #F59C00;
+}
+
+/*CARD ASSUNTOS INSTITUCIONAIS*/
+.card-assuntos {
+    background-color: #7D7760;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Telefone*/
 @media (max-width: 500px) {
@@ -234,14 +505,6 @@
         position: relative;
         left: 70px;
     }
-    .linha {
-        background-color: white;
-        width: auto;
-        height: 2px;
-        font-size: 2px;
-        color: white;
-    }
-
  }
 
 /*Tablet)*/
