@@ -60,6 +60,20 @@
     background-color: var(--cor-vermelha);
 }
 
+
+.bg-custom {
+    max-width: 460px;
+    min-width: 320px;
+    box-shadow: 2px 3px 7px;
+    border-radius: 5px;
+    height: 580px;
+}
+
+.text-custom {
+font-size: 0.9rem;
+}
+
+
 .bg-body {
     height: 100vh;
     background-color: white;
@@ -107,7 +121,7 @@
 }
 
 .text-custom {
-    font-size: 1rem;
+font-size: 0.9rem;
 }
 
 /*Desktop*/
@@ -134,7 +148,7 @@
 @media (max-width: 500px) {
 
     .text-custom {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
 
     } 
 }
