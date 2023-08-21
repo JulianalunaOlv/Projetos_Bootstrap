@@ -22,6 +22,7 @@
     height: 70px; 
     z-index: 10;
     
+
 }
 .hover:hover {
     text-decoration: underline;
@@ -99,9 +100,7 @@ padding-inline: 5px;
     border-color: #363636;
 }
 
-.text-uso {
-    text-align: justify;
-}
+
 
 .text-info {
     color: #363636 !important;
@@ -212,7 +211,7 @@ padding-inline: 5px;
 }
 
 
-p {
+.texto-principal{
     text-align: justify;
     text-indent: 10px;
     font-size: medium;
