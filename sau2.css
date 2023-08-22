@@ -33,26 +33,59 @@
     left: 60px;
 }
 
-.btn-primary {
+
+.botaoconsultar {
+    background: #363636;
+    border: 1px solid #3636367e;
+    color: #ffffff !important;
+}
+
+.botaoconsultar:hover {
+    background-color: #363636;
+    border: 1px solid #3636367e;
+    box-shadow: 1px 1px 2px #00000041;
+}
+
+.botaolimpar {
+    background: #36363673;
+    border: 1px solid #36363673;
+    color: #ffffff !important;
+}
+
+.botaolimpar:hover {
+    background-color: #36363673;
+    border: 1px solid #3636367e;
+    box-shadow: 1px 1px 2px #00000041;
+}
+
+.botaosalvar {
+    background: #198754;
+    border: 1px solid #36363673;
+    color: #ffffff !important;
+}
+
+.botaosalvar:hover {
+    background-color: #198754;
+    border: 1px solid #3636367e;
+    box-shadow: 1px 1px 2px #00000041;
+}
+
+
+.botaocadastrar {
     background: #2980B9;
-    border: 1px solid #2980B9;
+    border: 1px solid #36363673;
+    color: #ffffff !important;
 }
 
-.btn-primary:hover {
+.botaocadastrar:hover {
     background-color: #2980B9;
-    border: 1px solid #363636;
+    border: 1px solid #3636367e;
+    box-shadow: 1px 1px 2px #00000041;
 }
-.table-orange {
-    background-color:#2980B9;
 
-}
 
 .breadcrumb {
     font-size: 16px;
-}
-
-.bi,bi-search {
-    color: #2980B9;
 }
 
 .bi.bi-house {
@@ -94,17 +127,54 @@ h5 {
     font-size: 14px;
 }
 
-.active {
-    color: #363636;
+.nav-link {
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #297fb9b6;
 }
 
-.nav-link {
-    color: #2980B9;
-    font-weight: 400;
+.nav-link:hover {
+    color: #ffffff;
+    background-color: #297fb9b6;
 }
+
+.form-control:focus {
+    color: #212529;
+    background-color: #ffffff;
+    border-color: #297fb9b6;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #297fb93d;
+}
+
 
 @media (max-width: 620px) {
     .breadcrumb {
         font-size: 9px;
+    }
+    .card-text {
+        font-size: 14px;
+    }
+    .campoobrigatorio 
+    {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .input-group-text {
+        width: 40%;
+    }
+
+    .botaoconsultar {
+        margin-right: 5px;
+    }
+    .botaolimpar {
+        margin-right: 5px;
+    }
+    .botaosalvar {
+        margin-right: 5px;
+    }
+    .botaocadastrar {
+        margin-right: 5px;
     }
 }

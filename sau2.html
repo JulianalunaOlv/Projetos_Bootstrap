@@ -45,7 +45,7 @@
             <div class="card text-center">
               <div class="card-header">
                 <ul class="nav nav-tabs card-header-tabs">
-                  <li class="nav-item">
+                  <li class="nav-item me-2">
                     <a class="nav-link active" aria-current="true" href="#">Equipamentos Externos</a>
                   </li>
                   <li class="nav-item">
@@ -54,30 +54,142 @@
                 </ul>
               </div>
               <div class="card-body">
-                <p class="card-text">GP / GP-19 / SUB-SECRETARIA DE COMUNICACAO SOCIAL.</p>
+                <p class="card-text fw-semibold">GP / GP-19 / SUB-SECRETARIA DE COMUNICACAO SOCIAL</p>
+                <h6 class="mb-4 text-danger text-end fw-light fst-italic campoobrigatorio">(*) Campos Obrigatórios</h6>
 
                 <div class="row">
                   <div class="col-lg-6 col-12">
                     <div class="input-group mb-3">
-                      <span class="input-group-text" id="basic-addon1">@</span>
-                      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                      <span class="input-group-text" id="basic-addon1">N° Solicitação</span>
+                      <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                   </div>
                   <div class="col-lg-6 col-12">
                     <div class="input-group mb-3">
-                      <span class="input-group-text" id="basic-addon1">@</span>
-                      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                      <span class="input-group-text" id="basic-addon2">Ano</span>
+                      <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                   </div>  
                 </div>
-                
-
-
-                <a href="#" class="btn btn-primary">Consultar</a>
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon3">Data da solicitação</span>
+                      <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon4">Prazo de Entrega</span>
+                      <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                  </div>  
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon5">Tema do Evento</span>
+                      <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                  </div> 
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon6">Status</span>
+                      <select class="form-select" aria-label="Default select example basic-addon5">
+                        <option selected>Selecione...</option>
+                        <option value="1">Aguardando</option>
+                        <option value="2">Alteração Deferida</option>
+                        <option value="3">Alteração Solicitada</option>
+                        <option value="4">Cancelada</option>
+                        <option value="5">Cancelamento Deferido</option>
+                        <option value="6">Cancelamento Solicitado</option>
+                        <option value="7">Concluída</option>
+                        <option value="8">Em andamento</option>
+                        <option value="7">Finalizada</option>
+                        <option value="8">Reaberta</option>
+                      </select>
+                    </div>
+                  </div>  
+                  <div class="col-lg-6 col-12">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon6">Encerrando o Prazo</span>
+                      <select class="form-select" aria-label="Default select example basic-addon5">
+                        <option selected>Selecione...</option>
+                        <option value="1">Sim</option>
+                        <option value="2">Não</option>
+                      </select>
+                    </div>
+                  </div> 
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon6">Serviços de Gráfica Municipal</span>
+                      <select class="form-select" aria-label="Default select example basic-addon5">
+                        <option selected>Selecione...</option>
+                        <option value="1">Sim</option>
+                        <option value="2">Não</option>
+                      </select>
+                    </div>
+                  </div>  
+                  <div class="col-lg-6 col-12">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon6">Liberado pela Sead</span>
+                      <select class="form-select" aria-label="Default select example basic-addon5">
+                        <option selected>Selecione...</option>
+                        <option value="1">Sim</option>
+                        <option value="2">Não</option>
+                      </select>
+                    </div>
+                  </div> 
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon6">Secretaria</span>
+                      <select class="form-select" aria-label="Default select example basic-addon5">
+                        <option selected>Selecione...</option>
+                        <option value="1">GP</option>
+                        <option value="2">PROGEM</option>
+                        <option value="3">SEAD</option>
+                        <option value="4">SEAI</option>
+                        <option value="5">SEAS</option>
+                        <option value="6">SECTUR</option>
+                      </select>
+                    </div>
+                  </div>  
+                  <div class="col-lg-6 col-12">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon6">Departamento</span>
+                      <select class="form-select" aria-label="Default select example basic-addon5">
+                        <option selected>Selecione...</option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                      </select>
+                    </div>
+                  </div> 
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon5">Equipamento</span>
+                      <select class="form-select" aria-label="Default select example basic-addon5">
+                        <option selected>Selecione...</option>
+                        <option value="1">Paço Municipal</option>        
+                      </select>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              <div class="card-footer text-body-secondary justify-content-end align-content-end d-lg-flex">
+                <div class="btn botaoconsultar bi bi-search"> Consultar</div> 
+                <div class="btn botaolimpar bi bi-trash"> Limpar</div> 
+                <div class="btn botaosalvar bi bi-save"> Salvar</div> 
+                <div class="btn botaocadastrar bi bi-person-plus"> Cadastrar</div> 
               </div>
             </div>
-
-
           </div>
       </div>
     </div>
