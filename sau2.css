@@ -87,14 +87,21 @@
 h5 {
     font-weight: 100;
     font-size: 25px;
-    position: relative;
-    left: 37%;
 }
 .campos-obrigatorios {
     font-style: italic;
     color: rgb(226, 47, 47);
+    font-size: 14px;
 }
 
+.active {
+    color: #363636;
+}
+
+.nav-link {
+    color: #2980B9;
+    font-weight: 400;
+}
 
 @media (max-width: 620px) {
     .breadcrumb {
